@@ -19,11 +19,11 @@ publishing {
 
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/nekzabirov/Firebase_KMM")
+            url = uri("https://maven.pkg.github.com/nekzabirov/Viewmodel_KMM")
 
             credentials {
                 username = System.getenv("GITHUB_USERNAME")
-                password = System.getenv("GITHUB_WRITE_TOKEN")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
