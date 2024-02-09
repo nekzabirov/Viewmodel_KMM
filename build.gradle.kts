@@ -7,12 +7,14 @@ plugins {
 
 version = rootProject.libs.versions.project.get()
 
-group = "com.nekzabirov.viewmodel"
+group = "com.nekzabirov"
 
 plugins.apply("maven-publish")
 
 publishing {
-    publications {}
+    publications.withType<MavenPublication> {
+        artifactId = "viewmodel"
+    }
 
     repositories {
         mavenLocal()
@@ -36,7 +38,7 @@ kotlin {
                 jvmTarget = "1.8"
             }
         }
-        publishAllLibraryVariants()
+        publishLibraryVariants("release")
     }
 
     iosX64()

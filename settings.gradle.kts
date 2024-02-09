@@ -1,4 +1,4 @@
-rootProject.name = "ViewModelKMM"
+rootProject.name = "viewmodel"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
