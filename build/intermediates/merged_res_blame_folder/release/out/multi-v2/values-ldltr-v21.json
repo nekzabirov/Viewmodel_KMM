@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nekzabirov.viewmodel-merged_res-35:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/nekzabirov/.gradle/caches/transforms-3/7a2544653d7ebbd05f8711ae12f68e52/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.nekzabirov.viewmodel-mergeReleaseResources-33:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/nekzabirov/.gradle/caches/transforms-3/7a2544653d7ebbd05f8711ae12f68e52/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
